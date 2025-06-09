@@ -1,13 +1,18 @@
 title: Jekyll-GOVUK theme demo
 description: A minimal GOV.UK styled Jekyll theme.
-baseurl: "/jekyll-govuk"  # Important for GH Pages subpath
+baseurl: "/jekyll-govuk"
+url: "https://jonathanthomas83.github.io"
 
-url: ""     # e.g. https://yourdomain.com
 
-theme: null
-theme_color: "#0b0c0c"
-use_gds_fonts: false
-custom_site_logo_width: true
+include:
+  - ../_layouts
+  - ../_includes
+  - ../_sass
+
+sass:
+  load_paths:
+    - ../_sass
+
 
 # Optional site-wide navigation
 header_links:

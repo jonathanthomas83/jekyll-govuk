@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: default
+title: jekyl-govuk
 ---
 
   <p class="govuk-body"><strong>This is a GOV.UK-styled Jekyll site using the Jekyll-GOVUK theme.</strong></p>

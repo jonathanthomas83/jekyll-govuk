@@ -1,0 +1,20 @@
+<footer class="govuk-footer" role="contentinfo">
+  <div class="govuk-width-container">
+
+    {% if site.email %}
+      <p class="govuk-body">
+        Contact:
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </p>
+    {% endif %}
+
+    {% if site.footer_links %}
+      <ul class="govuk-list">
+        {% for link in site.footer_links %}
+          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+  </div>
+</footer>

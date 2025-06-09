@@ -1,0 +1,14 @@
+// LOGO ADJUSTMENTS
+// This override relaxes the 320px constraint from GDS to allow for longer names (e.g. 'Jonathan Thomas')
+// Safe, minimal override — does not affect branding or layout integrity
+
+.custom-site-logo-width {
+  max-width: none !important;
+  width: auto !important;
+
+  .govuk-header__logotype {
+    white-space: nowrap;
+    max-width: none !important;
+    width: 100% !important;
+  }
+}
