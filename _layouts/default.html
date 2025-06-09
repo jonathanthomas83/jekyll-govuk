@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" class="govuk-template">
+
+  {%- include head.html -%}
+
+  <body class="govuk-template__body">
+
+    {%- include header.html -%}
+
+    <div class="govuk-width-container">
+      <main class="govuk-main-wrapper " id="main-content" role="main" aria-label="Content">
+
+        {% if page.use_grid != false %}
+          {% include layout-wrapper.html %}
+        {% else %}
+          {{ content }}
+        {% endif %}
+
+      </main>
+    </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

@@ -1,0 +1,25 @@
+title: Jekyll-GOVUK
+description: >
+  A Jekyll theme built for compatibility with the GOV.UK Design System.
+
+baseurl: "" # e.g. /your-subdirectory
+url: ""     # e.g. https://yourdomain.com
+
+theme: null
+theme_color: "#0b0c0c"
+use_gds_fonts: false
+custom_site_logo_width: true
+
+# Optional site-wide navigation
+header_links:
+  - name: Home
+    url: /
+  - name: About
+    url: /about/
+
+# Optional footer links
+footer_links:
+  - name: Accessibility
+    url: /accessibility/
+  - name: Privacy
+    url: /privacy/

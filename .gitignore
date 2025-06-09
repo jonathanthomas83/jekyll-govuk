@@ -1,0 +1,34 @@
+# Build output
+_site/
+assets/main.css
+
+# Dependencies
+node_modules/
+vendor/ # in case you use bundler's vendor dir
+
+# Jekyll cache
+.jekyll-cache/
+.sass-cache/
+
+# macOS system files
+.DS_Store
+
+# Ruby stuff
+*.gem
+*.rbc
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System
+cleanup.sh~
+*.bak
+*.orig
