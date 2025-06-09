@@ -32,3 +32,4 @@ vendor/ # in case you use bundler's vendor dir
 cleanup.sh~
 *.bak
 *.orig
+assets/main.css
