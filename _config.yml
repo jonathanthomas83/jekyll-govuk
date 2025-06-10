@@ -20,3 +20,5 @@ footer_links:
     url: /accessibility/
   - name: Privacy
     url: /privacy/
+
+custom_site_logo_width: true

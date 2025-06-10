@@ -4,11 +4,12 @@ baseurl: "/jekyll-govuk"
 url: "https://jonathanthomas83.github.io"
 
 # Optional site-wide navigation
-header_links:
-  - name: Home
-    url: /
-  - name: About
-    url: /about/
+# Uncomment if needed
+# header_links:
+#   - name: Home
+#     url: /
+#   - name: About
+#     url: /about/
 
 # Optional footer links
 footer_links:

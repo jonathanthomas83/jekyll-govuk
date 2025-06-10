@@ -12,3 +12,10 @@
     width: 100% !important;
   }
 }
+
+// Temporary fix for removing padding when no logo is present
+// - this is temporary until it can be handled dynamically
+// - remove this if you need to show a logo
+.govuk-header__content {
+  padding-left: 0;
+}
