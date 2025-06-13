@@ -9,11 +9,9 @@
 
     <div class="govuk-width-container">
       {% if page.back_link_url %}
-        <div class="govuk-width-container">
-          <a href="{{ page.back_link_url | relative_url }}" class="govuk-back-link">
-            {{ page.back_link_text | default: "Back" }}
-          </a>
-        </div>
+        <a href="{{ page.back_link_url | relative_url }}" class="govuk-back-link">
+          {{ page.back_link_text | default: "Back" }}
+        </a>
       {% endif %}
 
       <main class="govuk-main-wrapper " id="main-content" role="main" aria-label="Content">
