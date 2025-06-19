@@ -20,4 +20,4 @@ title: jekyl-govuk
     <li><a href="http://jekyllrb.com/">Jekyll</a></li>
     <li><a href="http://sass-lang.com/">Sass</a></li>
   </ul>
-
+  <p class="govuk-body">View the <a href="https://github.com/jonathanthomas83/jekyll-govuk">jekyll-govuk repository on GitHub</a>.</p>
